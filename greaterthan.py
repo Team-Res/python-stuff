@@ -1,3 +1,4 @@
+#to be merged into ultimatepycalc, im just going to have to write a system that lets you choose between them
 print ("greater than Program by team-res")
 print ("Give me an x")
 x = int(input())
