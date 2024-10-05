@@ -21,13 +21,15 @@ def greaterthan():
         print (str(y) + " is greater than " + str(x))
     else:
         print ("Both numbers are equal")
+def select():
+    print ("Hello")
+    print ("1 to multiply      2 to Greater Than")
+    select = input()
+    if select == "1":
+           multiply()
+    if select == "2":
+           greaterthan()
+    else:
+        print ("ending program")
 
-print ("Hello")
-print ("1 to multiply      2 to Greater Than")
-select = input()
-if select == "1":
-       multiply()
-if select == "2":
-       greaterthan()
-else:
-    print ("ending program")
+select()
