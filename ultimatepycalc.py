@@ -1,4 +1,12 @@
-#My code is readable enough, anyone complaining about no comments is a cry baby
+#My code is readable enough, anyone complaining about no comments is a cry bab
+#Decimals are also not supported
+def add():
+    print ("add")
+    print ("Give me an x")
+    x = int(input())
+    print ("giveth me thy y")
+    y = int(input())
+    print ("the result is " +str(x+y))
 
 def multiply():
     print ("Multiply (only put numbers cause in the codes current state, it bugs) ")
@@ -24,11 +32,14 @@ def greaterthan():
 def select():
     print ("Hello")
     print ("1 to multiply      2 to Greater Than")
+    print ("3 to addition")
     select = input()
     if select == "1":
-           multiply()
+        multiply()
     if select == "2":
-           greaterthan()
+        greaterthan()
+    if select == "3":
+        add()
     else:
         print ("ending program")
 
