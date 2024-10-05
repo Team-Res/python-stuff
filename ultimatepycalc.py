@@ -1,3 +1,5 @@
+#My code is readable enough, anyone complaining about no comments is a cry baby
+
 def multiply():
     print ("Multiply (only put numbers cause in the codes current state, it bugs) ")
     print ("give me a number")
