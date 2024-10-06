@@ -40,6 +40,7 @@ def select():
     if select == "3":
         add()
     else:
-        print ("ending program")
+        print ("error: no letters or floats")
 
 select()
+print ("program ended")
