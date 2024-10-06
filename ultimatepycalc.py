@@ -1,4 +1,4 @@
-#My code is readable enough, anyone complaining about no comments is a cry bab
+#My code is readable enough, anyone complaining about no comments is a cry baby
 #Decimals are also not supported
 def add():
     print ("add")
