@@ -3,25 +3,25 @@
 def add():
     print ("add")
     print ("Give me an x")
-    x = int(input())
+    x = float(input())
     print ("giveth me thy y")
-    y = int(input())
+    y = float(input())
     print ("the result is " +str(x+y))
 
 def multiply():
     print ("Multiply (only put numbers cause in the codes current state, it bugs) ")
     print ("give me a number")
-    x = int(input())
+    x = float(input())
     print ("give me another number")
-    y = int(input())
+    y = float(input())
     print ("The result is " + str (x*y))
 
 def greaterthan():
     print ("greater than Program by team-res")
     print ("Give me an x")
-    x = int(input())
+    x = float(input())
     print ("Give me a y")
-    y = int(input())
+    y = float(input())
     if x > y:
         print (str(x) + " is greater than " + str(y))
     elif y > x:
@@ -40,7 +40,7 @@ def select():
     if select == "3":
         add()
     else:
-        print ("error: no letters or floats")
+        print ("idk")
 
 select()
 print ("program ended")
