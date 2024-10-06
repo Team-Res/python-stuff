@@ -17,7 +17,6 @@ def multiply():
     print ("The result is " + str (x*y))
 
 def greaterthan():
-    #im going to have to write a system that lets you choose between the 2, just too lazy to do that rn
     print ("greater than Program by team-res")
     print ("Give me an x")
     x = int(input())
