@@ -7,6 +7,14 @@ def add():
     y = float(input())
     print ("the result is " +str(x+y))
 
+def subtract():
+    print ("subtracts ")
+    print ("give me a number")
+    x = float(input())
+    print ("give me another number")
+    y = float(input())
+    print ("The result is " + str (x-y))
+
 def multiply():
     print ("Multiply (only put numbers cause in the codes current state, it bugs) ")
     print ("give me a number")
@@ -30,7 +38,7 @@ def greaterthan():
 def select():
     print ("Hello")
     print ("1 to multiply      2 to Greater Than")
-    print ("3 to addition")
+    print ("3 to addition      4 to subtract")
     select = input()
     if select == "1":
         multiply()
@@ -38,6 +46,8 @@ def select():
         greaterthan()
     if select == "3":
         add()
+    if select == "4":
+        subtract()
     else:
         print ("idk")
 
